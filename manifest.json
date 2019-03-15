@@ -2,6 +2,7 @@
   "manifest_version": 2,
   "name": "Daily Dog",
   "version": "1.0",
+  "homepage_url": "https://github.com/ChexWarrior/dailyDog",
   "description": "Shows pictures of cute dogs accompanied by a quotes.",
   "content_scripts": [
     {

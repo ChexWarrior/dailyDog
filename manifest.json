@@ -5,7 +5,7 @@
   "description": "Shows pictures of cute dogs accompanied by a quotes.",
   "content_scripts": [
     {
-      "matches": ["*"],
+      "matches": ["*://*/"],
       "js": ["main.js"]
     }
   ]

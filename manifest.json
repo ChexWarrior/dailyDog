@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Daily Dog",
+  "version": "1.0",
+  "description": "Shows pictures of cute dogs accompanied by a quotes.",
+  "content_scripts": [
+    {
+      "matches": ["*"],
+      "js": ["main.js"]
+    }
+  ]
+}

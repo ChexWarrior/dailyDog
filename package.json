@@ -1,7 +1,7 @@
 {
   "name": "dailydog",
   "version": "0.0.1",
-  "description": "A webextension that shows you random dogs while browsing the net",
+  "description": "A web-extension that shows you random dogs while browsing the net",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "dogs",
-    "webextension",
+    "web-extension",
     "silly"
   ],
   "author": "Andrew \"Chex Warrior\" Lehman",

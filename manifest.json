@@ -10,12 +10,18 @@
     "tabs"
   ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
   "content_scripts": [
     {
-      "matches": ["*://*/"],
-      "js": ["main.js"]
+      "matches": [
+        "*://*/"
+      ],
+      "js": [
+        "main.js"
+      ]
     }
   ]
 }

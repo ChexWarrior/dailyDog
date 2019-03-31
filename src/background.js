@@ -1,6 +1,6 @@
 const DOG_API_ENDPOINT = 'https://dog.ceo/api';
 
-const {tabs, alarms} = browser;
+const { tabs, alarms } = browser;
 
 let activeTabId;
 
@@ -12,6 +12,6 @@ alarms.create('test', {
 
 alarms.onAlarm.addListener((alarmInfo) => {
   tabs.executeScript(activeTabId, {
-    code: `console.log('Hey... Jiji, hows it goin?');`,
+    file: 'scripts/inject.js',
   });
 });

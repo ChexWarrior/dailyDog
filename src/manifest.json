@@ -3,25 +3,26 @@
   "name": "Daily Dog",
   "version": "1.0",
   "homepage_url": "https://github.com/ChexWarrior/dailyDog",
-  "description": "Shows a picture of a cute dog with a quote on a regular interval",
+  "description": "Creates a button that shows a picture of a cute dog",
   "permissions": [
     "http://*/*",
-    "https://*/*",
-    "alarms",
-    "tabs"
+    "https://*/*"
   ],
   "icons": {
     "48": "icons/dog.svg",
     "96": "icons/dog.svg"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "*://*/"
-      ],
-      "js": [
-        "main.js"
-      ]
-    }
-  ]
+  "page_action": {
+    "browser_style": true,
+    "default_icon": {
+      "19": "icons/paw.svg",
+      "38": "icons/paw.svg"
+    },
+    "show_matches":[
+      "http://*/*",
+      "https://*/*"
+    ],
+    "default_title": "Reveal Doggo",
+    "default_popup": "popup/popup.html"
+  }
 }

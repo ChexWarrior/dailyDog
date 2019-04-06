@@ -1,7 +1,7 @@
 {
   "name": "dailydog",
   "version": "0.0.1",
-  "description": "A web-extension that shows you random dogs while browsing the net",
+  "description": "This extension adds a new page action which when clicked will reveal a cute picture of a random dog.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

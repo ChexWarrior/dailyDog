@@ -1,7 +1,7 @@
 # Daily Dog :dog: :dog2: :poodle:
 
 ## Description
-Daily Dog is an extension that inserts pictures of dogs into your web page at random intervals.  
+This extension adds a new page action which when clicked will reveal a cute picture of a random dog.
 
 This extension proudly uses [Dog CEO's Dog API ](https://dog.ceo/dog-api/) for it's images.
 

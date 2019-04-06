@@ -10,10 +10,9 @@
     "alarms",
     "tabs"
   ],
-  "background": {
-    "scripts": [
-      "background.js"
-    ]
+  "icons": {
+    "48": "icons/dog.svg",
+    "96": "icons/dog.svg"
   },
   "content_scripts": [
     {
